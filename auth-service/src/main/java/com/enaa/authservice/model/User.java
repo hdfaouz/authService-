@@ -1,7 +1,11 @@
 package com.enaa.authservice.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 public class User {
     @Id
